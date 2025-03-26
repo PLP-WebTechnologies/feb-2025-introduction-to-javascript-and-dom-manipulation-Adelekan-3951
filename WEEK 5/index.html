@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <header>
+        <h1 id="heading">Welcome to My Interactive Page</h1>
+        <p id="description">Click the buttons below to interact with the page.</p>
+    </header>
+
+    <main>
+        <section class="controls">
+            <button onclick="changeText()">Change Text</button>
+            <button onclick="toggleElement()">Toggle Box</button>
+            <button onclick="changeStyle()">Toggle Dark Mode</button>
+        </section>
+
+        <section id="content">
+            <div id="box" class="box">This is a box</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Adelekan Interactive Page</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
